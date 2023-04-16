@@ -26,6 +26,6 @@ soon
 
 
 #### 📖 Contact
-**Discord**: `927328599000875088`
+**Discord**: [kvcu](https://discordapp.com/users/927328599000875088)
 
 **Website**: https://visionadbot.top/
