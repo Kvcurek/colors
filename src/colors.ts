@@ -60,3 +60,5 @@ export class Colors {
         return `${availableColors.black}${text}${availableFormats.reset}`;
     }
 }
+
+export const color: color = new Colors();
