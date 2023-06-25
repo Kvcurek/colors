@@ -2,9 +2,8 @@
 NodeJS Simple terminal colors without libraries.
 #### 🔧 Usage
 ```ts
-import { Colors } from './colors.ts';
+import { color } from './colors.ts';
 
-const color = new Colors();
 console.log(color.red('This is a red'));
 console.log(color.green('This is a green'));
 ```
