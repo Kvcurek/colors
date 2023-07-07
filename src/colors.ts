@@ -61,4 +61,4 @@ export class Colors {
     }
 }
 
-export const color: color = new Colors();
+export const color: Colors = new Colors();
