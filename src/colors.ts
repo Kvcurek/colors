@@ -15,47 +15,47 @@ const availableFormats = {
 }
 
 export class Colors {
-    public red (text: String) {
+    public red (text: string) : Promise <string> {
         if (!text) return;
         return `${availableColors.red}${text}${availableFormats.reset}`;
     }
 
-    public yellow (text: String) {
+    public yellow (text: string) : Promise <string> {
         if (!text) return;
         return `${availableColors.yellow}${text}${availableFormats.reset}`;
     }
 
-    public green (text: String) {
+    public green (text: string) : Promise <string> {
         if (!text) return;
         return `${availableColors.green}${text}${availableFormats.reset}`;
     }
 
-    public cyan (text: String) {
+    public cyan (text: string) : Promise <string> {
         if (!text) return;
         return `${availableColors.cyan}${text}${availableFormats.reset}`;
     }
 
-    public blue (text: String) {
+    public blue (text: string) : Promise <string> {
         if (!text) return;
         return `${availableColors.blue}${text}${availableFormats.reset}`;
     }
 
-    public magenta (text: String) {
+    public magenta (text: string) : Promise <string> {
         if (!text) return;
         return `${availableColors.magenta}${text}${availableFormats.reset}`;
     }
 
-    public white (text: String) {
+    public white (text: string) : Promise <string> {
         if (!text) return;
         return `${availableColors.white}${text}${availableFormats.reset}`;
     }
 
-    public gray (text: String) {
+    public gray (text: string) : Promise <string> {
         if (!text) return;
         return `${availableColors.gray}${text}${availableFormats.reset}`;
     }
 
-    public black (text: String) {
+    public black (text: string) : Promise <string> {
         if (!text) return;
         return `${availableColors.black}${text}${availableFormats.reset}`;
     }
